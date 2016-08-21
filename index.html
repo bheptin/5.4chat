@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./main.css">
+    <title>Chat Box</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>TIY Orlando Coffee Talk</h1>
+        <div id="textarea">
+           <ul id="chatbox"></ul>
+        </div>
+        <div class="userarea">
+          <form method="post" action="/cgi-bin/example.cgi">
+             <p id="username"></p>Enter Your Comments:<br>
+             <textarea class ="comment" wrap="virtual" name="Comments" rows="3" cols="60" maxlength="100"></textarea><br>
+             <input class="submit" type="Submit" value="Submit">
+             <input type="Reset" value="Clear">
+             <button>delete</button>
+          </form>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./main.js"></script>
+
+
+  </body>
+</html>

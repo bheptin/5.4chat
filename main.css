@@ -1,0 +1,21 @@
+form {
+  position:absolute;
+  padding-top: 600px;
+
+}
+#textarea {
+  display: inline-block;
+  position: absolute;
+  border: solid;
+  border-color: #152854;
+  width: 450px;
+  height: 600px;
+}
+body {
+  color: #103CCC;
+  box-sizing: border-box;
+
+}
+#chatbox {
+  list-style: none;
+}
